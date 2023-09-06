@@ -1,7 +1,9 @@
 package strategy;
 
 import java.util.Random;
-
+/** Creates a lineman and chooses what behavior based on offense and defense/randomization
+ * @return a set offense and a random behavior for the receiver in defense 
+ */
 public class Lineman extends Player{
 
     public Lineman(String firstName, String lastName, boolean offense) {

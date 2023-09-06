@@ -1,6 +1,9 @@
 package strategy;
     public abstract class Player {
-    
+    /** A Player in Football Game
+     * @author kaylee
+     **/
+
     private String firstName;
     private String lastName;
     private boolean offense;
@@ -17,7 +20,9 @@ package strategy;
     public abstract void setDefenseBehavior();
     public abstract void setOffenseBehavior();
 
-
+    /** player plays in game
+     * @returns "not playing" or defense or offense behavior based on PlayerType
+     **/
     public String play(){
         
         setOffenseBehavior();
@@ -37,11 +42,16 @@ package strategy;
         }
     }
 
+    /**  changes offense or defense to the opposite 
+    * @return boolean of offense 
+    */
     public void turnover(){
         offense = !offense;
     }
 
-
+    /**  shows names of players 
+    * @return string to print 
+    */
     public String toString(){
         return this.firstName + " " + this.lastName;
     }
