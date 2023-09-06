@@ -1,33 +1,48 @@
 package strategy;
-public class Player {
+    public abstract class Player {
     
     private String firstName;
     private String lastName;
     private boolean offense;
-    protected DefenceBehavior defencebehavior;
-    protected OffenceBehavior offencebehavior;
+    protected DefenseBehavior defenseBehavior;
+    protected OffenseBehavior offenseBehavior;
 
-    public Player(String firstName, String lastName, boolean offence){
+    public Player(String firstName, String lastName, boolean offense){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.offense = offense;
 
     }
-    public void setDefenseBehavior(){
-        setDefenseBehavior();
-    }
 
-    
-    public void setOffenceBehavior(){
-        setOffenceBehavior();
-    }
+    public abstract void setDefenseBehavior();
+    public abstract void setOffenseBehavior();
+
 
     public String play(){
-        //interface offense behavior
+        
+        setOffenseBehavior();
+        setDefenseBehavior();
+
+        if(offense)
+        {
+            if(offenseBehavior == null){
+                return "not playing";
+            }
+            return offenseBehavior.play();
+        } else {
+            if(defenseBehavior == null){
+                return "not playing";
+            }
+            return defenseBehavior.play();
+        }
     }
 
     public void turnover(){
-
+        offense = !offense;
     }
-    
-    public String toString(){
 
+
+    public String toString(){
+        return this.firstName + " " + this.lastName;
     }
 }
