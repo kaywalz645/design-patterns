@@ -1,0 +1,45 @@
+Enter Golfers Name: sam
+sam is playing golf
+
+*** Hole 1 ***     
+Number of Strokes: 4
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 3
+Current Hole Stats: Par (3) Strokes (4), Over Par
+Overall Stats: Par (3) Strokes (4), Over Par     
+
+*** Hole 2 ***
+Number of Strokes: 4
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 3
+Current Hole Stats: Par (4) Strokes (4), Even Par
+Overall Stats: Par (7) Strokes (8), Over Par     
+
+*** Hole 3 ***
+Number of Strokes: 56
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 3
+Current Hole Stats: Par (2) Strokes (56), Over Par
+Overall Stats: Par (9) Strokes (64), Over Par     
+
+*** Hole 4 ***
+Number of Strokes: 2
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 3
+Current Hole Stats: Par (2) Strokes (2), Even Par
+Overall Stats: Par (11) Strokes (66), Over Par   
+
+*** Hole 5 ***
+Number of Strokes: 1
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 3
+Current Hole Stats: Par (3) Strokes (1), Under Par
+Overall Stats: Par (14) Strokes (67), Over Par    
+
+*** Hole 6 ***
+Number of Strokes: 1
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 3
+Current Hole Stats: Par (4) Strokes (1), Under Par
+Overall Stats: Par (18) Strokes (68), Over Par    
+
+*** Hole 7 ***
+Number of Strokes: 1
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 31
+Sorry, that's not a valid input option.
+1. View Hole Stats, 2. View Round Stats, 3. View Both Stats, 4. Continue: 1
+Current Hole Stats: Par (2) Strokes (1), Under Par
