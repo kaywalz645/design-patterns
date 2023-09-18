@@ -1,9 +1,7 @@
 package decorator;
 
-import java.util.ArrayList;
-
 public class Car extends Vehicle{
     public Car(){
-         super(new ArrayList<>());
+         super(FileReader.getLines("decorator/txt/car.txt"));
     }
-}
+}//new ArrayList<>()

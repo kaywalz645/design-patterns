@@ -9,7 +9,7 @@ public abstract class Vehicle { //beverage
         this.lines = lines;
     }
 
-
+@Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         for (String line : lines) {
