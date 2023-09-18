@@ -1,5 +1,8 @@
 package decorator;
-
+/* class to add some special decorations to our car / intergrated different features
+ * into our car using ArrayLists and replacing characters in our original car
+ * @return a cool car
+ */
 import java.util.ArrayList;
 
 public abstract class VehicleDecorator extends Vehicle{ //condiment decorator
@@ -21,12 +24,13 @@ public abstract class VehicleDecorator extends Vehicle{ //condiment decorator
                 char decorChar = decorLine.charAt(j);
     
                 if (carChar == ' ') {
-                    // Replace empty space in car line with decor character
                     decoratedLine.append(decorChar);
-                } else {
+                } 
+                else
+                {
                     decoratedLine.append(carChar);
                 }
-            }
+            }System.out.println("");
     
             carLines.set(i, decoratedLine.toString());
         }
