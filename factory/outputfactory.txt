@@ -1,0 +1,12 @@
+Welcome to our Bike Store.
+
+Enter Bike Type: 
+1. Tricycle      
+2. Strider       
+3. Kids Bike     
+4. None
+3
+Assembling Kids Bike frame:
+Adding 2 wheel(s) 
+Adding Pedals
+Adding Training Wheels     
