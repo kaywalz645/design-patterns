@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/* program to read txt files
+ * @return a line by line ArrayList of a txt file
+ */
 public class FileReader {
     public static ArrayList<String> getLines(String fileName) {
         ArrayList<String> lines = new ArrayList<String>();

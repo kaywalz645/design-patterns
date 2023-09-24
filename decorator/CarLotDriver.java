@@ -1,7 +1,9 @@
 package decorator;
 
 import java.util.Scanner;
-
+/* program for users to customize car with smile,rims and paint
+ * @return a customized car in the console
+ */
 public class CarLotDriver {
 	private Scanner scanner;
 
