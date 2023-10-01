@@ -1,5 +1,7 @@
 package factory;
-
+/** Sets bike with parameters and sets behaviors
+ * @return type of bike and its features
+ */
 public abstract class Bike {
     protected String name;
     protected double price;
