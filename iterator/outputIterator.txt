@@ -1,0 +1,23 @@
+Document Editor Opened
+Enter Document Name: kti
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: c
+Enter Change: sfs
+Change Applied: sfs
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: l
+Undo Command List:
+  - sfs
+Redo Command List:
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: u
+unded changesfs
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: c
+Enter Change: new change 1
+Change Applied: new change 1
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: c
+Enter Change: new change 2
+Change Applied: new change 2
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: u
+unded changenew change 2
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: r
+reded changenew change 2
+Press 'C' for change, 'U' for undo, 'R' for redo, L for change list, or Q for quit: q
+Goodbye :(
